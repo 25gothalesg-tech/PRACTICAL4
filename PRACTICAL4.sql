@@ -37,3 +37,4 @@ CREATE TABLE appointment (
     FOREIGN KEY (patient_id) REFERENCES patient(patient_id),
     FOREIGN KEY (doctor_id) REFERENCES doctor(doctor_id)
 );
+
